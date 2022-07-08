@@ -1,0 +1,34 @@
+.mainNav {
+  background: #f9f9fa;
+
+  display: flex;
+  padding-top: 1.43vw;
+  padding-bottom: 0.65vw;
+}
+.mainNav h1 {
+  padding-left: 3.25vw;
+  font-size: 3.25vw;
+  margin: 0 1.56vw;
+  color: #192733;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+.mainNav ul {
+  display: flex;
+
+  padding-left: 22vw;
+}
+
+.mainNav ul li {
+  margin: 0 1.56vw;
+  font-weight: 600;
+  list-style: none;
+  font-size: 1.43vw;
+  color: #192733;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+}
+.mainNav ul li button {
+  background-color: #bf2434;
+}
