@@ -1,0 +1,71 @@
+.container H1 {
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.contactBody {
+  width: 100vw;
+  height: 35vw;
+  background: #fff;
+  display: flex;
+}
+.leftBody {
+  width: 50vw;
+}
+.rightBody {
+  width: 50vw;
+}
+.leftCard {
+  width: 28vw;
+  height: 25vw;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 5vw;
+  margin-left: 17vw;
+  box-shadow: 0 2px 4px #cfc6c6;
+}
+.leftCard H1 {
+  padding-top: 3vw;
+}
+.leftCard p {
+  font-size: 1vw;
+  padding: 2vw;
+}
+.leftCard button {
+  width: 22vw;
+  height: 4vw;
+  font-size: 24px;
+  background-color: #fff;
+}
+.leftCard button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.rightCard {
+  width: 28vw;
+  height: 25vw;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 5vw;
+  margin-left: 3vw;
+  box-shadow: 0 2px 4px #cfc6c6;
+}
+.rightCard H1 {
+  padding-top: 3vw;
+}
+.rightCard p {
+  font-size: 1vw;
+  padding: 2vw;
+}
+.rightCard button {
+  width: 22vw;
+  height: 4vw;
+  font-size: 24px;
+  background-color: #fff;
+}
+.rightCard button:hover {
+  background-color: #000;
+  color: #fff;
+}

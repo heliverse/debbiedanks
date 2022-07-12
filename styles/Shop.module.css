@@ -1,0 +1,45 @@
+.container {
+  background-color: #f9f9fa;
+  padding-top: 6vw;
+}
+
+.mainHeading {
+  /* padding-top: 6vw; */
+  background-color: #f9f9fa;
+  text-align: center;
+  font-size: 2vw;
+  color: #000000;
+}
+.middle {
+  margin-top: 0vw;
+  display: flex;
+}
+.left {
+  width: 50vw;
+  text-align: right;
+  padding-right: 1vw;
+  padding-top: 3vw;
+  font-size: 4vw;
+  color: #232062;
+}
+.left img {
+  height: auto;
+  width: 22vw;
+}
+.right img {
+  height: auto;
+  width: 22vw;
+}
+.right {
+  width: 50vw;
+  text-align: left;
+  padding-left: 10vw;
+  padding-top: 3vw;
+  font-size: 4vw;
+  color: #3d4853;
+}
+.down {
+  text-align: center;
+  padding-top: 9vw;
+  color: #000000;
+}

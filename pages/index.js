@@ -46,7 +46,7 @@ export default function Home() {
         (Structured Data) is added
       </p> */}
 
-      <nav className={styles.mainNav}>
+      {/* <nav className={styles.mainNav}>
         <div>
           <h1>MakeItPolitical.com</h1>
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> */}
       <HomePage />
       {/* <Features />
       <Footer /> */}

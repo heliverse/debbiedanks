@@ -1,15 +1,116 @@
 .container {
   width: 100%;
-  height: 63vh;
+  height: 85vh;
   background-color: #ffffff;
 }
-.container H1 {
-  margin: 100px 330px;
+.first {
+  display: flex;
+  background-color: #629637;
+  height: 12vw;
 }
-.footerSpan {
-  margin-top: 150px;
-  margin-left: 400px;
+.heading {
+  width: 60%;
 }
-.footerSpan span {
-  margin-left: 45px;
+.heading H1 {
+  margin-left: 7.5vw;
+  margin-top: 3vw;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2632em;
+}
+.inputWithButton {
+  position: relative;
+  width: 40vw;
+
+  margin-right: 15vw;
+  margin-top: 4vw;
+}
+.input {
+  width: 50%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 0px 0;
+  margin-left: 0vw;
+  outline: none;
+  padding: 0.91vw;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.inputWithButton {
+  position: relative;
+  height: 13.02vw;
+  width: 32.55vw;
+  padding-left: 10vw;
+}
+
+.inputWithButton input {
+  width: 90%;
+  height: 50px;
+  padding-right: 130px;
+  border-radius: 0.325vw;
+  border-color: #ffffff;
+  box-shadow: 1px 1px 1px rgb(229, 223, 223);
+}
+
+.inputWithButton button {
+  position: absolute;
+  right: -5.8vw;
+  top: 0.425vw;
+  height: 2.929vw;
+  border-radius: 0.65vw;
+  border: none;
+  box-shadow: 0 0 0.65vw rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.04vw;
+  font-weight: 700;
+  padding: 0.65vw 1.953vw;
+  background-color: #3ba820;
+}
+.inputWithButton input::placeholder {
+  font: 20px/3 sans-serif;
+  padding-left: 1.3vw;
+}
+
+.second {
+  height: 78%;
+  background-color: #192733;
+}
+.secondHeading H1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-top: 6vw;
+  text-align: center;
+  font-size: 70px;
+  color: #fff;
+}
+.secondContent {
+  text-align: center;
+  color: #fff;
+}
+.spanText span {
+  padding: 0 2vw;
+}
+.anchor {
+  text-decoration: none;
+  color: #fff;
+}
+.secondIcons {
+  text-align: center;
+  color: #fff;
+  padding-top: 2.5vw;
+}
+.icons span {
+  padding: 0 2vw;
+}
+.privacy {
+  text-align: center;
+  color: #fff;
+  line-height: 20%;
+}
+.privacy h4 {
+  text-decoration: underline;
 }
