@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Home.module.css";
 
 import Link from "next/link";
-import { Button } from "./Button.styled";
+import { Button } from "./repeating/TextFormatting.jsx";
 const Navbar = () => {
   return (
     <nav className={styles.mainNav}>

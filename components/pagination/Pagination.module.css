@@ -4,6 +4,27 @@
 .pageLink {
   list-style-type: none;
 
+  padding: 0 0.85vw;
+  height: 2vw;
+  text-align: center;
+  margin: auto 0.25vw;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  letter-spacing: 0.01071em;
+  border-radius: 1vw;
+  line-height: 1.43;
+  font-size: 1.25vw;
+  min-width: 2vw;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+}
+.page-item {
+  background-color: black;
+}
+.pagination-item {
   padding: 0 12px;
   height: 32px;
   text-align: center;
@@ -18,23 +39,10 @@
   font-size: 13px;
   min-width: 32px;
 }
-
-/* .pagination-item {
-  padding: 0 12px;
-  height: 32px;
-  text-align: center;
-  margin: auto 4px;
-  color: rgba(0, 0, 0, 0.87);
-  display: flex;
-  box-sizing: border-box;
-  align-items: center;
-  letter-spacing: 0.01071em;
-  border-radius: 16px;
-  line-height: 1.43;
-  font-size: 13px;
-  min-width: 32px;
-} */
-
+.active a {
+  background-color: #666;
+  color: white;
+}
 /* &.dots:hover {
       background-color: transparent;
       cursor: default;
@@ -45,8 +53,8 @@
     } */
 
 /* &.selected {
-      background-color: rgba(0, 0, 0, 0.08);
-    } */
+  background-color: rgba(0, 0, 0, 0.08);
+} */
 
 /* .arrow {
       &::before {

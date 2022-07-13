@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../styles/Footer.module.css";
-import { H1 } from "./H1.styled";
+import styles from "./Footer.module.css";
+import { H1 } from "../H1.styled";
 
-import { Button } from "./Button.styled";
+import { Button } from "../Button.styled";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";

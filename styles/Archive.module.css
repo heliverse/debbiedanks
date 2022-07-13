@@ -5,24 +5,34 @@
 
   background-color: #f9f9fa;
 }
+.leftSide {
+  width: 65vw;
+}
 .heading {
   text-align: center;
+  padding-top: 2vw;
 }
 .heading H1 {
   font-size: 32px;
   font-family: "Fjalla One", sans-serif;
+  padding-top: 3vw;
+}
+.heading p {
+  padding-left: 8vw;
+  padding-right: 5vw;
+  text-align: left;
 }
 
 .inputWithButton {
   position: relative;
   height: 13.02vw;
   width: 60.55vw;
-  padding-left: 12vw;
+  padding-left: 8vw;
 }
 
 .inputWithButton input {
   width: 90%;
-  height: 50px;
+  height: 3.425vw;
   padding-right: 11.5vw;
   border-radius: 0.325vw;
   border-color: #ffffff;
@@ -31,8 +41,8 @@
 
 .inputWithButton button {
   position: absolute;
-  right: -5.2vw;
-  top: 0.325vw;
+  right: 0.8vw;
+  top: 0.259vw;
   height: 2.929vw;
   border-radius: 0.65vw;
   border: none;
@@ -48,14 +58,24 @@
   font: 20px/3 sans-serif;
   padding-left: 1.3vw;
 }
-.content {
-  margin-bottom: 10vw;
+.table {
+  margin-top: -5vw;
+  margin-left: -2vw;
+  width: 72vw;
 }
+
 .newsContent {
   border: 1px solid #bf2434;
   margin-left: 10vw;
   margin-right: 10vw;
   padding-left: 2vw;
+  padding-top: 1vw;
+  height: 4vw;
+}
+.paginaton {
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  margin-left: 8vw;
 }
 .containers {
   padding: 0 2rem;

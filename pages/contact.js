@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Modal } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
+import { ButtonMain } from "../components/repeating/TextFormatting.jsx";
 import { H1 } from "../components/H1.styled";
 import styles from "../styles/Contact.module.css";
 import "react-phone-number-input/style.css";
@@ -61,13 +62,15 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <div class="text-center mt-3 mb-3">
-              <button
-                type="button"
-                className="btn btn-dark ps-5 pe-5 pt-2 pb-2"
-              >
-                Contact Sales
-              </button>
+            <div>
+              <div className="text-center mt-3 mb-3">
+                <ButtonMain
+                  type="button"
+                  className="btn btn-dark ps-5 pe-5 pt-2 pb-2"
+                >
+                  Contact Sales
+                </ButtonMain>
+              </div>
             </div>
           </form>
         </div>
@@ -106,11 +109,12 @@ const Contact = () => {
             </div>
             <div className="row mobileNumber mt-3 ">
               <label htmlFor="exampleFormControlTextarea1">Phone Number</label>
-              <div className="col">
-                <input type="text" className="form-control" placeholder="" />
-              </div>
-              <div className="col">
-                <input type="number" className="form-control" placeholder="" />
+              <div className="col ">
+                <PhoneInput
+                  value={value}
+                  onChange={setValue}
+                  style={{ height: "44px", border: "1px solid #CED4DA" }}
+                />
               </div>
             </div>
             <div className="form-group mt-3 ">
@@ -121,13 +125,13 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <div class="text-center mt-3 mb-3">
-              <button
+            <div className="text-center mt-3 mb-3">
+              <ButtonMain
                 type="button"
                 className="btn btn-dark ps-5 pe-5 pt-2 pb-2"
               >
                 Contact Support
-              </button>
+              </ButtonMain>
             </div>
           </form>
         </div>

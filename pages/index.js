@@ -1,11 +1,12 @@
 import { NextSeo } from "next-seo";
 import Link from "next/link";
+import styledComponents, { ThemeProvider } from "styled-components";
 import styles from "../styles/Home.module.css";
 import { Button } from "../components/Button.styled";
 import { H1 } from "../components/H1.styled";
-import HomePage from "../components/HomePage";
-import Features from "../components/Features";
-import Footer from "../components/Footer";
+import HomePage from "../components/homePage/HomePage.js";
+
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -46,25 +47,9 @@ export default function Home() {
         (Structured Data) is added
       </p> */}
 
-      {/* <nav className={styles.mainNav}>
-        <div>
-          <h1>MakeItPolitical.com</h1>
-        </div>
-        <div>
-          <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>Archive</li>
-            <li>Youtube</li>
-            <li>
-              <Button>Join free</Button>
-            </li>
-          </ul>
-        </div>
-      </nav> */}
       <HomePage />
-      {/* <Features />
-      <Footer /> */}
     </div>
   );
 }
+
+// styled components

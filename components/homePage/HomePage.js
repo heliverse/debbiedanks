@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { H1 } from "./H1.styled";
-import { H3 } from "./H3.styled";
+import { H1 } from "../repeating/TextFormatting.jsx/index.js";
+import { H3 } from "../H3.styled";
 
-import styles from "../styles/HomePage.module.css";
-import { Button } from "./Button.styled";
+import styles from "./HomePage.module.css";
+import { Button } from "../repeating/TextFormatting.jsx/index.js";
 
 const HomePage = () => {
   return (

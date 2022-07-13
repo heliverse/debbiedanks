@@ -1,4 +1,5 @@
 import _ from "lodash";
+import "bootstrap/dist/css/bootstrap.css";
 import styles from "./Pagination.module.css";
 const Pagination = ({ items, pageSize, currentPage, onPageChange }) => {
   const pageCount = items / pageSize;
@@ -7,7 +8,7 @@ const Pagination = ({ items, pageSize, currentPage, onPageChange }) => {
   return (
     <>
       <nav>
-        <ul className={styles.pagination}>
+        <ul className="pagination pagination-lg">
           {pages.map((page) => (
             <li
               key={page}

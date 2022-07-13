@@ -48,7 +48,7 @@
   box-shadow: 1px 1px 1px rgb(229, 223, 223);
 }
 
-.inputWithButton button {
+.inputWithButton Button {
   position: absolute;
   right: -5.2vw;
   top: 0.325vw;
