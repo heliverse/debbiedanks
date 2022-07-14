@@ -2,16 +2,28 @@
   width: 100vw;
   background-color: #ffffff;
   display: flex;
+  padding: 5vw 6vw;
 }
-.container H1 {
-  padding-top: 0.13vw;
-  padding-top: 8vw;
+.left {
+  width: 40vw;
+}
+.container h2 {
+  padding-top: 3vw;
   color: #192733;
   font-family: "Oswald", sans-serif;
   font-size: 3vw;
   font-weight: 700;
-  line-height: 1em;
-  padding-bottom: 1vw;
+  line-height: 3.8vw;
+}
+.container h3 {
+  color: #372733;
+  font-family: "Oswald", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  margin-top: -1vw;
+}
+.container h3 span {
+  font-weight: 600;
 }
 .femaleBear {
   margin-left: 10vw;
@@ -31,50 +43,36 @@
 
 .inputWithButton {
   position: relative;
-  height: 13.02vw;
+
   width: 32.55vw;
-  padding-left: 10vw;
 }
 
 .inputWithButton input {
   width: 90%;
-  height: 3.125vw;
+  padding: 1.2vw;
   padding-right: 8.125vw;
   border-radius: 0.325vw;
   border-color: #ffffff;
-  box-shadow: 1px 1px 1px rgb(229, 223, 223);
+  box-shadow: 1px 1px 1px rgb(229 223 223);
 }
 
 .inputWithButton Button {
   position: absolute;
-  right: -5.2vw;
-  top: 0.325vw;
-  height: 2.929vw;
-  border-radius: 0.65vw;
-  border: none;
-  box-shadow: 0 0 0.65vw rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  color: #ffffff;
-  font-size: 1.04vw;
-  font-weight: 700;
-  padding: 0.65vw 1.953vw;
+  display: flex;
+  right: -6vw;
+  top: 0.35vw;
   background-color: #bf2434;
+  border: none;
+  color: white;
+  padding: 1vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.83vw;
+  cursor: pointer;
+  border-radius: 0.5vw;
 }
 .inputWithButton input::placeholder {
   font: 20px/3 sans-serif;
   padding-left: 1.3vw;
-}
-.container H3 {
-  padding-left: 10vw;
-  padding-top: 0.1vw;
-  margin-bottom: 0.1vw;
-  margin-top: -1.953vw;
-
-  color: #372733;
-  font-family: "Oswald", sans-serif;
-  font-size: 1vw;
-  font-weight: 500;
-}
-.container H3 span {
-  font-weight: 600;
 }
