@@ -1,15 +1,9 @@
 .container {
-  width: 100%;
-  height: 85vh;
   background-color: #ffffff;
 }
 .first {
   display: flex;
   background-color: #629637;
-  height: 12vw;
-}
-.heading {
-  width: 60%;
 }
 .heading H1 {
   margin-left: 7.5vw;
@@ -21,11 +15,6 @@
   line-height: 1.2632em;
 }
 .inputWithButton {
-  position: relative;
-  width: 40vw;
-
-  margin-right: 15vw;
-  margin-top: 4vw;
 }
 .input {
   width: 50%;
@@ -41,7 +30,6 @@
 
 .inputWithButton {
   position: relative;
-  height: 13.02vw;
   width: 32.55vw;
   padding-left: 10vw;
 }
@@ -76,12 +64,9 @@
 }
 
 .second {
-  height: 78%;
   background-color: #192733;
 }
 .secondHeading H1 {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
   padding-top: 6vw;
   text-align: center;
   font-size: 70px;
@@ -109,7 +94,6 @@
 .privacy {
   text-align: center;
   color: #fff;
-  line-height: 20%;
 }
 .privacy h4 {
   text-decoration: underline;

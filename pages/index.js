@@ -1,12 +1,5 @@
 import { NextSeo } from "next-seo";
-import Link from "next/link";
-import styledComponents, { ThemeProvider } from "styled-components";
-import styles from "../styles/Home.module.css";
-import { Button } from "../components/Button.styled";
-import { H1 } from "../components/H1.styled";
 import HomePage from "../components/homePage/HomePage.js";
-
-import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -37,15 +30,7 @@ export default function Home() {
           ],
         }}
       />
-      {/* <h1>SEO Added to Page</h1>
-      <p>Take a look at the head to see what has been added.</p>
-      <p>
-        Or checkout how{' '}
-        <Link href="/jsonld">
-          <a>JSON-LD</a>
-        </Link>{' '}
-        (Structured Data) is added
-      </p> */}
+
 
       <HomePage />
     </div>

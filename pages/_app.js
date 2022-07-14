@@ -7,7 +7,6 @@ import { DefaultSeo } from "next-seo";
 
 import SEO from "../next-seo.config";
 import styledComponents, { ThemeProvider } from "styled-components";
-
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer/Footer.js";

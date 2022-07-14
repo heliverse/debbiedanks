@@ -16,8 +16,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600&display=swap"
             rel="stylesheet"
           />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
             href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200;300;600&display=swap"
             rel="stylesheet"

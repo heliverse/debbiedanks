@@ -1,14 +1,11 @@
 .container {
   width: 100vw;
-  height: 80vh;
   background-color: #ffffff;
   display: flex;
 }
 .container H1 {
   padding-top: 0.13vw;
   padding-top: 8vw;
-  padding-left: 10vw;
-
   color: #192733;
   font-family: "Oswald", sans-serif;
   font-size: 3vw;

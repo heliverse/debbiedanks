@@ -1,14 +1,12 @@
 .mainNav {
   background: #f9f9fa;
-
   display: flex;
-  padding-top: 1.43vw;
-  padding-bottom: 0.65vw;
+  justify-content: space-between;
+  padding: 1vw 6vw;
 }
-.mainNav h1 {
-  padding-left: 3.25vw;
+.mainNav h6 {
   font-size: 3.25vw;
-  margin: 0 1.56vw;
+  margin: 0;
   color: #192733;
   font-weight: 600;
   font-family: "Oswald", sans-serif;
@@ -16,8 +14,6 @@
 
 .mainNav ul {
   display: flex;
-
-  padding-left: 22vw;
 }
 
 .mainNav ul li {
