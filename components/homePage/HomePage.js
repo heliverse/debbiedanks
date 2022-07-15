@@ -3,6 +3,7 @@ import Image from "next/image";
 // import { H1 } from "../repeating/TextFormatting.jsx/index.js";
 // import { H3 } from "../H3.styled";
 import styles from "./HomePage.module.css";
+import EmailInput from "../EmailInput";
 // import { Button } from "../repeating/TextFormatting.jsx/index.js";
 
 const HomePage = () => {
@@ -14,10 +15,11 @@ const HomePage = () => {
           Get the <span>5-minute newsletter</span> keeping 2M+ innovators in the
           loop.
         </h3>
-        <div className={styles.inputWithButton}>
+        {/* <div className={styles.inputWithButton}>
           <input type="text" placeholder="Your email address" />
           <button>Subscribe</button>
-        </div>
+        </div> */}
+        <EmailInput />
       </div>
       <div className={styles.femaleBear}>
         <Image src="/image/female-bear.jpeg" width="500" height="450" />

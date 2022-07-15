@@ -1,5 +1,5 @@
 import React from "react";
-import { H1 } from "../components/H1.styled";
+
 import styles from "../styles/Shop.module.css";
 import Image from "next/image";
 
@@ -7,7 +7,7 @@ const Shop = () => {
   return (
     <>
       <div className={styles.container}>
-        <H1 className={styles.mainHeading}>Shop Some Merch</H1>
+        <h2 className={styles.mainHeading}>Shop Some Merch</h2>
         <div className={styles.middle}>
           <div className={styles.left}>
             <img src="https://makeitpoliticalassets.s3.amazonaws.com/teespring_8cfba6d848.svg" />

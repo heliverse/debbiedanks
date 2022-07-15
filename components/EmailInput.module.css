@@ -1,0 +1,49 @@
+.inputWithButton {
+  /* position: relative; */
+  /* width: 34.55vw; */
+  justify-content: flex-end;
+  border: 2px solid r=gr;
+  display: flex;
+  box-shadow: 0px 0px 1px 1px rgb(229 223 223);
+  /* border-radius: 3px; */
+  align-items: center;
+  /* padding: 10px; */
+  /* padding: 10px 0; */
+  background-color: #fff;
+}
+
+.inputWithButton input {
+  width: 90%;
+  padding: 1.5vw 1vw;
+  /* padding-right: 8.125vw; */
+  border-radius: 0.325vw;
+  border-color: #ffffff;
+  /* box-shadow: 1px 1px 1px rgb(229 223 223); */
+  flex: 1;
+  /* padding-right: 9vw; */
+  border: none;
+}
+
+.inputWithButton Button {
+  /* position: absolute; */
+  /* display: flex; */
+  /* right: -6vw; */
+  /* top: 0.35vw; */
+  background-color: #bf2434;
+  border: none;
+  color: white;
+  /* padding: 1vw 2vw; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  /* font-size: 0.83vw; */
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: 11;
+  margin-right: 10px;
+  padding: 0.7vw 1vw;
+}
+.inputWithButton input::placeholder {
+  font: 20px/3 sans-serif;
+  padding-left: 1.3vw;
+}

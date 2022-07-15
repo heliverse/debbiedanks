@@ -1,26 +1,23 @@
 .container {
   background-color: #f9f9fa;
-  padding-top: 6vw;
+  padding: 3vw 6vw;
+  font-family: "Oswald";
 }
 
 .mainHeading {
-  /* padding-top: 6vw; */
-  background-color: #f9f9fa;
   text-align: center;
-  font-size: 2vw;
-  color: #000000;
+  font-size: 3vw;
 }
 .middle {
-  margin-top: 0vw;
   display: flex;
+  padding: 3vw 5vw;
 }
 .left {
-  width: 50vw;
+  width: 50%;
   text-align: right;
-  padding-right: 1vw;
-  padding-top: 3vw;
+  padding-right: 5vw;
+
   font-size: 4vw;
-  color: #232062;
 }
 .left img {
   height: auto;
@@ -31,12 +28,11 @@
   width: 22vw;
 }
 .right {
-  width: 50vw;
+  width: 50%;
   text-align: left;
-  padding-left: 10vw;
-  padding-top: 3vw;
+  padding-left: 5vw;
+  /* padding-top: 3vw; */
   font-size: 4vw;
-  color: #3d4853;
 }
 .down {
   text-align: center;

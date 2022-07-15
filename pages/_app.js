@@ -41,9 +41,9 @@ export default function MyApp({ Component, pageProps }) {
 }
 
 export const Homepage = styledComponents.div`
-display: grid;
-grid-template-columns: repeat(12, 1fr);
-gap: 2vw;
+// display: grid;
+// grid-template-columns: repeat(12, 1fr);
+// gap: 2vw;
 width:100%;
 margin:auto;
 }

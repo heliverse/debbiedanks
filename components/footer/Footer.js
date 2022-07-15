@@ -6,6 +6,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import EmailInput from "../EmailInput";
+// import EmailInput from "../EmailInput";
 const Footer = () => {
   return (
     <div className={styles.container}>
@@ -15,9 +17,12 @@ const Footer = () => {
             Join 2M+ professionals getting the <br /> Hustle daily news brief
           </h2>
         </div>
-        <div className={styles.inputWithButton}>
+        {/* <div className={styles.inputWithButton}>
           <input type="text" placeholder="Your email address" />
           <button>Join Free</button>
+        </div> */}
+        <div className={styles.emailInput}>
+          <EmailInput />
         </div>
       </div>
       <div className={styles.second}>
