@@ -9,14 +9,16 @@ const Shop = () => {
       <div className={styles.container}>
         <h2 className={styles.mainHeading}>Shop Some Merch</h2>
         <div className={styles.middle}>
+          {/* <div className={styles.left}>
+            <Image src="/image/bonfire.jpeg" width="500" height="450" />
+          </div> */}
           <div className={styles.left}>
-            <img src="https://makeitpoliticalassets.s3.amazonaws.com/teespring_8cfba6d848.svg" />
+            <Image src="/image/teespring.jpeg" width="500" height="450" />
           </div>
           <div className={styles.right}>
-            <img src="https://makeitpoliticalassets.s3.amazonaws.com/bonfire_8be93319a2.svg" />
+            <Image src="/image/teespring.jpeg" width="500" height="450" />
           </div>
         </div>
-        <div className={styles.down}></div>
       </div>
     </>
   );

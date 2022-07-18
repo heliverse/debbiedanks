@@ -4,8 +4,8 @@
   justify-content: flex-end;
   border: 2px solid r=gr;
   display: flex;
-  box-shadow: 0px 0px 1px 1px rgb(229 223 223);
-  /* border-radius: 3px; */
+  box-shadow: 0px 0px 2px 2px rgb(229 223 223);
+  border-radius: 3px;
   align-items: center;
   /* padding: 10px; */
   /* padding: 10px 0; */
@@ -13,7 +13,7 @@
 }
 
 .inputWithButton input {
-  width: 90%;
+  width: 100%;
   padding: 1.5vw 1vw;
   /* padding-right: 8.125vw; */
   border-radius: 0.325vw;
@@ -22,6 +22,8 @@
   flex: 1;
   /* padding-right: 9vw; */
   border: none;
+  box-shadow: 0 4px -1px #eaf0f6;
+  outline: none;
 }
 
 .inputWithButton Button {
@@ -46,4 +48,25 @@
 .inputWithButton input::placeholder {
   font: 20px/3 sans-serif;
   padding-left: 1.3vw;
+}
+
+@media screen and (max-width: 1022px) {
+  .inputWithButton {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .inputWithButton {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .inputWithButton input {
+    margin: 2vw;
+  }
+  .inputWithButton button {
+    width: 94%;
+    /* text-align: center; */
+    margin-right: 0px;
+    padding: 1.7vw 2vw;
+  }
 }

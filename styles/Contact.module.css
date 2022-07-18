@@ -1,13 +1,15 @@
-.container H1 {
+.container {
+  padding: 0vw 3vw;
+}
+.container h2 {
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 .contactBody {
-  width: 100vw;
-  height: 35vw;
   background: #fff;
   display: flex;
+  margin: 2vw 6vw;
 }
 .leftBody {
   width: 50vw;
@@ -17,15 +19,14 @@
 }
 .leftCard {
   width: 28vw;
-  height: 25vw;
   text-align: center;
   background-color: #fff;
-  position: absolute;
-  margin-top: 5vw;
-  margin-left: 17vw;
+  /* position: absolute; */
+  /* margin-top: 5vw; */
+  margin: 3vw auto;
   box-shadow: 0 2px 4px #cfc6c6;
 }
-.leftCard H1 {
+.leftCard h3 {
   padding-top: 3vw;
 }
 .leftCard p {
@@ -33,10 +34,11 @@
   padding: 2vw;
 }
 .leftCard button {
-  width: 22vw;
-  height: 4vw;
+  width: 25vw;
   font-size: 24px;
   background-color: #fff;
+  margin-bottom: 2vw;
+  padding: 5px 8px;
 }
 .leftCard button:hover {
   background-color: #000;
@@ -44,15 +46,14 @@
 }
 .rightCard {
   width: 28vw;
-  height: 25vw;
   text-align: center;
   background-color: #fff;
-  position: absolute;
-  margin-top: 5vw;
-  margin-left: 3vw;
+  /* position: absolute; */
+  /* margin-top: 5vw; */
+  margin: 3vw auto;
   box-shadow: 0 2px 4px #cfc6c6;
 }
-.rightCard H1 {
+.rightCard h3 {
   padding-top: 3vw;
 }
 .rightCard p {
@@ -60,10 +61,11 @@
   padding: 2vw;
 }
 .rightCard button {
-  width: 22vw;
-  height: 4vw;
+  width: 25vw;
   font-size: 24px;
   background-color: #fff;
+  margin-bottom: 2vw;
+  padding: 5px 8px;
 }
 .rightCard button:hover {
   background-color: #000;

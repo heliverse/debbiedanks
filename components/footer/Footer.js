@@ -13,21 +13,16 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.first}>
         <div className={styles.heading}>
-          <h2>
-            Join 2M+ professionals getting the <br /> Hustle daily news brief
-          </h2>
+          <h2>Join 2M+ professionals getting the Hustle daily news brief</h2>
         </div>
-        {/* <div className={styles.inputWithButton}>
-          <input type="text" placeholder="Your email address" />
-          <button>Join Free</button>
-        </div> */}
+
         <div className={styles.emailInput}>
           <EmailInput />
         </div>
       </div>
       <div className={styles.second}>
         <div className={styles.secondHeading}>
-          <h2>M</h2>
+          <h3>M</h3>
         </div>
         <div className={styles.secondContent}>
           <div className={styles.spanText}>
@@ -36,11 +31,13 @@ const Footer = () => {
             <span>Today’s Newsletter</span>
             <span>Podcast</span>
             <span>Trends</span>
-            <Link href="/contact">
-              <a className={styles.anchor}>
-                <span>Contact Us</span>
-              </a>
-            </Link>
+            <span>
+              <Link href="/contact">
+                <a className={styles.anchor}>
+                  <span>Contact Us</span>
+                </a>
+              </Link>
+            </span>
           </div>
         </div>
         <div className={styles.secondIcons}>

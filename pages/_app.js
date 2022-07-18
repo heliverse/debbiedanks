@@ -44,8 +44,10 @@ export const Homepage = styledComponents.div`
 // display: grid;
 // grid-template-columns: repeat(12, 1fr);
 // gap: 2vw;
-width:100%;
-margin:auto;
+// width:100%;
+// margin:auto;
+max-width: 100%;
+overflow-x: hidden;
 }
 
 `;

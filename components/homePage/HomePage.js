@@ -15,10 +15,7 @@ const HomePage = () => {
           Get the <span>5-minute newsletter</span> keeping 2M+ innovators in the
           loop.
         </h3>
-        {/* <div className={styles.inputWithButton}>
-          <input type="text" placeholder="Your email address" />
-          <button>Subscribe</button>
-        </div> */}
+
         <EmailInput />
       </div>
       <div className={styles.femaleBear}>
