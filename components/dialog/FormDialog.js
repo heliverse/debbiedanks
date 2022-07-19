@@ -6,8 +6,18 @@ import {
   TextField,
   DialogActions,
   Button,
+  Typography,
 } from "@mui/material";
 import React from "react";
+import styled from "styled-components";
+const Title = styled(Typography)`
+  margin-top: 20px;
+  font-size: 32px;
+`;
+
+const Paragraph = styled(Typography)`
+  font-size: 15px;
+`;
 
 export default function FormDialog(props) {
   const { title, children, openPopup, setOpenPopup } = props;
@@ -17,15 +27,15 @@ export default function FormDialog(props) {
   };
 
   return (
-    <Dialog open={openPopup}>
-      {/* <DialogTitle>Title</DialogTitle>
-      <DialogContent>Content</DialogContent> */}
-      <DialogTitle>Contact Sales</DialogTitle>
+    <Dialog open={openPopup} scroll="paper" maxWidth="xs">
+      <Title variant="h4" textAlign="center">
+        Contact Sales
+      </Title>
       <DialogContent>
-        <DialogContentText>
+        <Paragraph variant="h7">
           Let’s get this conversation started. Tell us your thoughts, and we’ll
           get in touch as soon as we can.
-        </DialogContentText>
+        </Paragraph>
         <TextField
           autoFocus
           margin="dense"
@@ -74,8 +84,12 @@ export default function FormDialog(props) {
         />
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose}>Cancel</Button>
-        <Button onClick={handleClose}>Contact Sales</Button>
+        <Button variant="contained" onClick={handleClose}>
+          Cancel
+        </Button>
+        <Button variant="contained" onClick={handleClose}>
+          Contact Sales
+        </Button>
       </DialogActions>
     </Dialog>
   );

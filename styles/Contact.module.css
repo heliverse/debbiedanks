@@ -71,3 +71,38 @@
   background-color: #000;
   color: #fff;
 }
+
+@media only screen and (max-width: 779px) {
+  .contactBody {
+    flex-direction: column;
+    background: #fff;
+
+    margin: 0vw 0vw;
+  }
+  .leftBody {
+    width: 100vw;
+  }
+  .rightBody {
+    width: 100vw;
+  }
+  .leftCard {
+    width: 54vw;
+  }
+  .leftCard p {
+    font-size: 3vw;
+    padding: 2vw;
+  }
+  .leftCard button {
+    width: 47vw;
+  }
+  .rightCard {
+    width: 54vw;
+  }
+  .rightCard p {
+    font-size: 3vw;
+    padding: 2vw;
+  }
+  .rightCard button {
+    width: 47vw;
+  }
+}

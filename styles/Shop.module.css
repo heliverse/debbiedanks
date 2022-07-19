@@ -6,11 +6,11 @@
 
 .mainHeading {
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .middle {
   display: flex;
-  padding: 3vw 5vw;
+  padding: 2vw 10vw;
 }
 .left {
   width: 50%;
@@ -36,6 +36,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .mainHeading {
+    font-size: 5.5vw;
+  }
   .middle {
     flex-direction: column;
   }

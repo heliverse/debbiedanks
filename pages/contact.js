@@ -26,7 +26,9 @@ const Contact = () => {
             <div className={styles.rightCard}>
               <h3>Support</h3>
               <p>Have a question? Need Help? Feel free to drop us a message.</p>
-              <button>Contact Support</button>
+              <button onClick={() => setOpenPopup(true)}>
+                Contact Support
+              </button>
             </div>
           </div>
         </div>
